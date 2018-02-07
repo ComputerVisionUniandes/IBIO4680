@@ -6,7 +6,7 @@ Grep processes text line by line and prints which match with a certain pattern.
 
 The general expression to use it is:
 
-grep [_OPTIONS_] _PATTERN_ [_FILE_...]
+```grep [_OPTIONS_] _PATTERN_ [_FILE_...]```
 
 For instance,  If you want to search the phrase &quot;Hola Mundo&quot; in a file whose name is prueba.txt you have to write:
 
@@ -38,7 +38,7 @@ In the case of the course server we have the next users:
 
 To count the number of lines returned in the command we can use:
 
-wc -l
+```wc -l```
 
 
 
@@ -71,6 +71,8 @@ Expand: With this command we can give some format to the output.
 
 ![p6](ImagesLab1/p6.png)
 
+```
+
 
 #!/bin/bash
 
@@ -80,7 +82,9 @@ dataImages=$(for im in ${images[\*]}; do cksum $im  | cut -d&quot; &quot; -f1,3;
 
 repeated=$(for im in ${images[\*]}; do cksum $im  | cut -d&quot; &quot; -f1; done | sort -k1 | uniq -d) # We are searching for the files that have  repeated the checksum
 
-for im in ${repeated[\*]}; do printf &#39;%s\n&#39; &quot;${dataImages[@]}&quot; | grep $im; done # we selected each checksum repeated and we filtered by them.
+for im in ${repeated[\*]}; do printf &#39;%s\n&#39; &quot;${dataImages[@]}&quot; | grep $im; done # we selected each checksum repeated and we filtered by them. 
+
+```
 
 **6) Download the** [**bsds500**](https://www2.eecs.berkeley.edu/Research/Projects/CS/vision/grouping/resources.html#bsds500) **image segmentation database and decompress it (keep it in you hard drive, we will come back over this data in a few weeks).**
 
