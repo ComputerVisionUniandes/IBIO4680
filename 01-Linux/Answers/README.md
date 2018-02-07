@@ -133,10 +133,12 @@ Here, you can see the commands used.
 
 ![p12](ImagesLab1/p12.png)
 
-
+```
  images=$(find ./BSRcopia -type f -name \*.gif -o -name \*.jpg) #here we select all images
 
 for im in ${images[\*]}; do basefilename=$(basename $im); convert -crop 256x256+0+0 $im ./croppedImages/$basefilename; done  #Here we cropped the selected images.
+
+```
 
 In the next image we can observe that the size of each image is 256x256.
 
