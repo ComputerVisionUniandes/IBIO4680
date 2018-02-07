@@ -76,13 +76,15 @@ Expand: With this command we can give some format to the output.
 
 #!/bin/bash
 
-images=$(find .  -iname &quot;\*.tiff&quot;) # We search for the images with .tiff extension
+images=$(find .  -iname "*.tiff") # We search for the images with .tiff extension
 
-dataImages=$(for im in ${images[\*]}; do cksum $im  | cut -d&quot; &quot; -f1,3; done | sort) # We generated the checksum value
+dataImages=$(for im in ${images[*]}; do cksum $im  | cut -d" " -f1,3; done | sort) # We generated the checksum value
 
-repeated=$(for im in ${images[\*]}; do cksum $im  | cut -d&quot; &quot; -f1; done | sort -k1 | uniq -d) # We are searching for the files that have  repeated the checksum
+repeated=$(for im in ${images[*]}; do cksum $im  | cut -d" " -f1; done | sort -k1 | uniq -d) # We are searching for the files that have  repeated the checksum 
 
-for im in ${repeated[\*]}; do printf &#39;%s\n&#39; &quot;${dataImages[@]}&quot; | grep $im; done # we selected each checksum repeated and we filtered by them. 
+
+for im in ${repeated[*]}; do printf '%s\n' "${dataImages[@]}" | grep $im; done # we selected each checksum repeated and we filtered by them.
+
 
 ```
 
