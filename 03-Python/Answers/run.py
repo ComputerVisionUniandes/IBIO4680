@@ -2,10 +2,12 @@
 
 
 """
-Tercer laboratorio: 
-    Gabriel Espinosa
-    Carlos Rivera
+Third Laboratory - Lab 3. Computer Vision - Uniandes. 
+Students:
+Carlos Andrés Rivera Morales
+Gabriel Andrés Espinosa Barrios    
 """
+
 from glob import glob
 from scipy import misc
 import numpy as np
