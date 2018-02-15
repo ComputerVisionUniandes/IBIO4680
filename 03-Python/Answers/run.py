@@ -33,6 +33,11 @@ num_to_select = 7
 
 
 def getFiles():
+    """
+    General acquisition of the Images Dataset.
+    Files gain from th url: http://www.eecs.berkeley.edu/Research/Projects/CS/vision/grouping/BSR/BSR_bsds500.tgz 
+    """
+    
     
     imlist = []
     ImagesSall = []
@@ -50,6 +55,10 @@ def getFiles():
         tar.extractall()
         tar.close()
     
+    
+    """
+    Time condition, record of time.
+    """
     tic = time.time()
         
     if not os.path.exists(outputImagesDir):
