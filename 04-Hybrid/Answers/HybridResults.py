@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 
-
+#20180220: Uploading the Hybrid Answers Results
 """
 Fourd Laboratory - Lab 4. Computer Vision - Uniandes. 
 Students:
