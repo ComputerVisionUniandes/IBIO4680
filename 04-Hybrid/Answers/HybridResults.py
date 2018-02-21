@@ -18,8 +18,9 @@ import cv2
 
 #IMAGES:
 # Url images: 
-#1. sucre 428.jpg (https://lh3.googleusercontent.com/-dPxKZJTpw1Y/Wnd754uYj4I/AAAAAAAAW3Q/3HJ1meCppuMneEyiCLYQGS0PSj4m2ghGgCJoC/w530-h707-n-rw/sucre%2B428.jpg)
-#2. Abuelos.jpg-Bisabuelit@sMimamiNanita.jpg (https://lh3.googleusercontent.com/-IqJPZYrEKbg/WkGKiVc5T2I/AAAAAAAAWt0/oAT9VJHoOCYIs2xS-LLXzfGhJlZPbBKsACJoC/w530-h339-n-rw/Bisabuelit%2540sMimamiNanita.jpg)
+#1. sucre 428.jpg=20180215img1.png (https://lh3.googleusercontent.com/-dPxKZJTpw1Y/Wnd754uYj4I/AAAAAAAAW3Q/3HJ1meCppuMneEyiCLYQGS0PSj4m2ghGgCJoC/w530-h707-n-rw/sucre%2B428.jpg)
+#2. Abuelos.jpg-Bisabuelit@sMimamiNanita.jpg=20180215img2.png (https://lh3.googleusercontent.com/-IqJPZYrEKbg/WkGKiVc5T2I/AAAAAAAAWt0/oAT9VJHoOCYIs2xS-LLXzfGhJlZPbBKsACJoC/w530-h339-n-rw/Bisabuelit%2540sMimamiNanita.jpg)
+
 #commands to import a image from a url:
 #python 3.x:
 #from PIL import Image
