@@ -46,17 +46,17 @@ filtered_img = skimage.filters.gaussian(Andres, sigma=2, multichannel=True)
 AndresO = img_as_ubyte(Andres)
 AndresF = img_as_ubyte(filtered_img)
 AntonioO = img_as_ubyte(Antonio)
-AntonioF = skimage.filters.gaussian(uribeO, sigma=5, multichannel=True)
-AntonioF = img_as_ubyte(uribeF)
+AntonioF = skimage.filters.gaussian(AntonioO, sigma=5, multichannel=True)
+AntonioF = img_as_ubyte(AntonioF)
 newImage = cv2.subtract(AndresO,AndresF)
 newImage = cv2.cvtColor(newImage, cv2.COLOR_RGB2GRAY)
 
 resul[:,:,0] = resul[:,:,0]+newImage
 resul[:,:,1] = resul[:,:,1]+newImage
 resul[:,:,2] = resul[:,:,2]+newImage
-#resul[0] = cv2.add(newImage, uribeF[0])
-#resul[1] = cv2.add(newImage, uribeF[1])
-#resul[2] = cv2.add(newImage, uribeF[2])
+#resul[0] = cv2.add(newImage, AntonioF[0])
+#resul[1] = cv2.add(newImage, AntonioF[1])
+#resul[2] = cv2.add(newImage, AntonioF[2])
 plt.subplot(221)
 plt.imshow(filtered_img)
 plt.subplot(222)
