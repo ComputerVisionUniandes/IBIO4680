@@ -5,7 +5,10 @@ University of the Andes. Cod:200311728 Id:110279864X.
 #  COMPUTER VISION - FIFTH LAB - LAB 5 
 Python files AND commands for the fifth WorkShop Textons.
 
-Student:
+Students: 
+
+Carlos Andrés Rivera Morales
+
 Gabriel Andrés Espinosa Barrios
 
 The link of the Answers files and results are in : https://github.com/ComputerVisionUniandes/IBIO4680/tree/master/05-Textons/Answers
