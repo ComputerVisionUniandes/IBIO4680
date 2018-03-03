@@ -35,6 +35,7 @@ import cv2
 #img = Image.open(file)
 #When cutting the image settings to the same pixels size 800X700 .png
 
+#open *.py *.ipynb python programs language online edition with Jupyther Notebook-azure.
 face1 = misc.imread("/home/nbuser/library/ComputerVisionUniandes2/IBIO4680/04-Hybrid/Answers/imgs/20180215img1.png)
 Andres = transform.resize(face1, (256,256))
 face2 = misc.imread("/home/nbuser/library/ComputerVisionUniandes2/IBIO4680/04-Hybrid/Answers/imgs/20180215img2.png)
