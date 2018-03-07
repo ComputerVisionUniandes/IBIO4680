@@ -3,7 +3,7 @@
 
 University of the Andes. Cod:200311728 Id:110279864X.
 #  COMPUTER VISION - SIXTH LAB - LAB 6 
-Python files AND commands for the fifth WorkShop Textons.
+Python files, Folders AND commands for the sixth WorkShop Segmentation.
 
 Students: 
 
@@ -11,4 +11,6 @@ Carlos Andrés Rivera Morales
 
 Gabriel Andrés Espinosa Barrios
 
-The link of the Answers files, folders and results are in : https://github.com/ComputerVisionUniandes/IBIO4680/tree/master/06-Segmentation/Answers
+# # The link of the Answers files, folders and results are in : https://github.com/ComputerVisionUniandes/IBIO4680/tree/master/06-Segmentation/Answers
+
+# # We develope a special K-Means foulder for the results. 
