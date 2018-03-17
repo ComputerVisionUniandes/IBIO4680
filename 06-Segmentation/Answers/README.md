@@ -11,6 +11,8 @@ Carlos Andrés Rivera Morales
 
 Gabriel Andrés Espinosa Barrios
 
-# # The link of the Answers files, folders and results are in : https://github.com/ComputerVisionUniandes/IBIO4680/tree/master/06-Segmentation/Answers
+## 1 Links of the Answers:
 
-# # We develope a special K-Means foulder for the results. 
+The link of the Answers files, folders and results are in : https://github.com/ComputerVisionUniandes/IBIO4680/tree/master/06-Segmentation/Answers
+
+## 2. We develope a special K-Means folder for the results.
