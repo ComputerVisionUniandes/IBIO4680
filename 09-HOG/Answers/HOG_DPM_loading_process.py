@@ -1,10 +1,15 @@
 #!/usr/bin/env python ## #!/usr/local/bin/ python
-#loading_process_dicom.py
-"""
-2018 Computing Tools Project  - Bone Fingers Stress Strain IGA-NURBS-BSplines Applications 
-Computing Tools(Herramientas Computacionales) - Uniandes. 
+#HOG_DPM_loading_process.py
 
-Student:
+#20180406: Test to uploading python 2.6 files
+"""
+2018 Ninth Laboratory, WorkShop - Lab 9. Computer Vision - Uniandes. 
+
+Students:
+Carlos Andrés Rivera Morales
+Gabriel Andrés Espinosa Barrios
+
+Background Student:
 GAEB(Gabriel Andrés Espinosa Barrios)
 Returning/re-entry Engineering PhD Graduate Student. Cod:200311728 Id:110279864X. 
 University of the Andes(Universidad de los Andes). Bogota(Bogotá) D.C., Colombia.
